@@ -1,5 +1,0 @@
-data/train/happy/*.jpg
-data/train/neutral/*.jpg
-data/validation/happy/*.jpg
-data/validation/neutral/*.jpg
-predict/*.jpg
