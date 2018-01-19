@@ -1,0 +1,22 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+</head>
+   <body style="font-family: 'Crimson Text'; color:white" bgcolor="#00ccff">
+	
+	<h1 align="center">
+		Emotion Detection System
+	</h1>
+	<h3 align="center">
+		Upload your image for sentimental analysis
+	</h3>
+   
+	<center>
+      <form action = "http://localhost:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" /> <br>
+         <input type = "submit"/>
+      </form>
+      </center>
+   </body>
+</html>
