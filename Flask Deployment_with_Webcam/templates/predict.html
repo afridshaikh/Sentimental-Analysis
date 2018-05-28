@@ -1,0 +1,29 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+</head>
+	
+   <body style="background-color:#4da6ff">
+   
+   
+	<center>
+	<div class="jumbotron">
+	<h1>
+		Emotion Detection System
+	<h1>
+	
+	<div>
+	<p style="font-size:30px;">
+		Click on the detect button to invoke the predictor code. Please wait for some time.
+	</p>
+	</div>
+	</div>
+	</center>
+	
+      <form action = "http://localhost:5000/predictor" method = "POST" align="center">
+         <input type = "submit" class="btn btn-lg btn-info" value=" Detect "/>
+      </form>
+      
+   </body>
+</html>

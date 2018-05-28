@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+   <body style="background-color:#4da6ff">
+	
+	
+	<center>
+	<div class="jumbotron">
+	<h1>
+		Emotion Detection System
+	<h1>
+	
+	<p>
+		Upload your image for sentimental analysis
+	</p>
+	</div>
+	</center>
+	
+   
+	<center>
+      <form action = "http://localhost:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data" name ="form_one" >
+         <input type = "file" name = "file" /> <br><br>
+         <input class="btn btn-lg btn-info" type = "submit"/>
+      </form>
+	  
+	  <form action = "http://localhost:5000/webcam" method = "POST" 
+         enctype = "multipart/form-data" name ="form_two">
+		 <input type = "submit" class="btn btn-lg btn-info" value="From Webcam"/>
+	</form>
+      </center>
+   </body>
+</html>

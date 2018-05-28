@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, redirect, url_for,render_template,flash
 from werkzeug.utils import secure_filename
-UPLOAD_FOLDER = 'E:\\Testing Area\\Emotion_Happy_Nuetral_Classifier\\Flask_Deployment\\uploads'
+UPLOAD_FOLDER =  os.getcwd() + '\\uploads'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
